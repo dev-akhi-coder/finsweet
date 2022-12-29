@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* nav start  */
+.container{
+    width: 1280px;
+    margin:0 auto;
+    
+}
+.nav{
+    width: 100%;
+    background-color: #1C1E53;
+    height: 92px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo img{
+    margin-top: 32px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    
+}
+.menu ul li a{
+    padding:0 16px;
+    font-weight: 500;
+    color: rgb(192, 191, 191);
+}
+.menu ul li a:hover{
+    color: white;
+}
+
+a.contact-us{
+    padding: 16px 48px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 41px;
+    font-weight: 500;
+    margin-left: 48px;
+    color: white;
+    transition: 0.5s;
+}
+a.contact-us:hover{
+    background-color: #FCD980;
+}
+/* group section style  */
+#group-study{
+    margin-top: 128px;
+}
+.group-discus{
+    display: flex;
+    justify-content: space-between;
+}
+.group-left h1{
+    font-size: 54px;
+    font-weight: 600;
+    padding-top: 8px;
+}
+.group-left p{
+    color: #282938;
+    padding-top: 31px;
+    
+}
+.group-ab p{
+    font-weight: 600;
+}
+
+.group-right img{
+    height: 336px;
+    width: 547px;
+
+
+}
+/* group section style end */
+/* improvement section  */
+#improvement{
+    margin-top: 128px;
+}
+.improvement-details{
+    height: 716px;
+    width: 100%;
+}
+.up-container{
+    width: 100%;
+    height: 50%;
+    background-color:#F4F5F5 ;
+}
+.improvment-up{
+    height: 216px;
+    width: 1092px;
+    margin-left: 79px;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+}
+.improvement-left h3{
+    font-size: 38px;
+    font-weight: 600;
+}
+.improvement-left p{
+    color: #282938;
+}
+.improvement-right{
+    margin-left: 61px;
+}
+.improvement-right h3{
+    font-size: 38px;
+    font-weight: 600;
+}
+.improvement-right p{
+    
+    color:#282938 ;
+}
+/* improvement section end */
+/* process section style  */
+.process-details{
+    height: 156px;
+    width: 296px;
+}
+.process-main{
+    margin-top: 128px;
+    
+}
+.process-main h2{
+    text-align: center;
+    margin-bottom: 48px;
+    font-size: 48px;
+} 
+.process-eq{
+    display: flex;
+    justify-content: space-between;
+}
+.ball-dash{
+    display: flex;
+    align-items: center;
+}
+.ball{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: #2405F2;
+}
+.dash{
+    width: 224px;
+    border-top: 2px dashed #2405F2;
+    margin-left: 24px;
+    
+}
+.process-details-hd{
+    margin-top: 32px;
+}
+.process-details-hd h6{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 32px;
+}
+.process-details-hd p{
+    color: #282938;
+}
+/* process section end */
+/* inspire style section  */
+#inspire{
+    width: 100%;
+    height: 1022px;
+    margin-top: 128px;
+    background-color: #EEF4FA;
+}
+.inspire-tp{
+    padding-top: 128px;
+}
+.gp-l{
+    margin-left: 117px;
+}
+.group-left h2{
+    font-size: 38px;
+}
+
+/* inspire style section end */
+/* benifit style  */
+#benefits{
+    margin-top: 128px;
+}
+.fetures-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.card-details{
+    background-color: #EEF4FA;
+    width: 405px;
+    height: 316px;
+}
+.card-details-part{
+    padding-left: 48px;
+}
+.card-details-part h6{
+    margin-top: 22px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.card-details-part p{
+    margin-top: 12px;
+    color: #282938;
+}
+.icon-item{
+    padding-top: 58px;
+    font-size: 32px;
+    color: #2405F2;
+}
+.work-heading h2{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 48px;
+}
+.user{
+    height: 84px;
+    width: 176px;
+}
+.companies{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user h3{
+    font-size: 38px;
+    font-weight: 600;
+}
+.lorem{
+    height:32px;
+    width: 161px;
+}
+/* benifit style end */
+/* teem meet style */
+#meet{
+    width: 100%;
+    height: 712px;
+    background-color: #F4F6FC;
+    margin-top: 128px;
+}
+.meet-heading h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 148px;
+}
+.meet-images{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+}
+.img-1{
+    height: 344px;
+    width: 296px;
+    background-color: white;
+    position: relative;
+    
+}
+#top{
+    padding-top: 95px;   
+}
+.top-top{
+    margin-left: 41px;
+}
+.img-overlay{
+    background: url(../images/tem-1.png);
+    width: 168px;
+    height: 168px;
+    position: relative;
+    top: 48px;
+    margin-left: 64px;
+    
+}
+.img-overlay-2{
+    background: url(../images/tem-2.png);
+}
+.img-overlay-3{
+    background: url(../images/tem-3.png);  
+}
+.img-overlay-4{
+    background: url(../images/tem-4.png);  
+}
+.img-overlay-style:hover{
+    position: absolute;
+    left: 0; right: 0px;;
+    top: 0; bottom: 0;
+    border-radius: 50%;
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%); 
+    
+}
+
+.top h6{
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 60px;
+    text-align: center;
+}
+.top p{
+    color: #1D2130;
+    text-align: center;
+}
+/* teem meet style end */
+#footer{
+    width: 100%;
+    height: 397px;
+    background-color: #1C1E53;
+}
+.footer-main{
+    display: flex;
+    padding-top: 100px;
+}
+.footer-contact-body{
+    height: 95px;
+    width: 517px;
+    background-color: #FCD980;
+    display: flex;
+    align-items: center;
+}
+.footer-contact-left{
+    margin-left: 37px;
+}
+.footer-logo p{
+    color: white;
+    padding-top: 22px;
+    padding-bottom: 40px;
+}
+.footer-contact-left h6{
+   font-size: 18px;
+}
+.footer-right{
+    margin-left: 80px;
+}
+.footer-right h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+}
+.footer-right p{
+    
+    color: white;
+}
+.media-fb{
+    font-size: 20px;
+    margin-top: 28px;
+    color: white; 
+}
+.media-link{
+    font-size: 20px;
+    margin-top: 28px;
+    color: white;
+    margin-left: 10px;
+}
+.white{
+    width: 100%;
+    height: 96px;
+    background-color: white;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.footer-menu ul{
+    list-style: none;
+}
+.footer-menu li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* footer end */
